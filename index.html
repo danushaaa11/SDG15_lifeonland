@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 15: Life on Land</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="mdc-elevation--z4">
+        <div class="logo">SDG 15 Initiative</div>
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#initiatives" class="nav-link">Initiatives</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="mdc-card">
+            <h1>SDG 15: Life on Land</h1>
+            <p>Protect, restore, and promote sustainable use of terrestrial ecosystems and halt biodiversity loss.</p>
+            <img src="https://picsum.photos/seed/biodiversity-hero/1200/600" alt="Biodiversity">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="mdc-card">
+            <h2>About SDG 15</h2>
+            <p>Sustainable Development Goal 15 aims to combat desertification, restore degraded land, and protect biodiversity by 2030.</p>
+            <div class="about-grid">
+                <div class="mdc-card about-item">
+                    <img src="https://picsum.photos/seed/forest/400/300" alt="Forests">
+                    <h3>Forest Conservation</h3>
+                    <p>Preserving forests to support ecosystems and carbon sequestration.</p>
+                </div>
+                <div class="mdc-card about-item">
+                    <img src="https://picsum.photos/seed/species/400/300" alt="Species">
+                    <h3>Species Protection</h3>
+                    <p>Safeguarding endangered species from extinction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="initiatives" class="initiatives">
+        <h2>Our Initiatives</h2>
+        <div class="carousel mdc-elevation--z2">
+            <div class="carousel-container">
+                <div class="carousel-slide mdc-card">
+                    <img src="https://picsum.photos/seed/reforestation/800/400" alt="Reforestation">
+                    <h3>Reforestation</h3>
+                    <p>Planting millions of trees to restore degraded lands.</p>
+                </div>
+                <div class="carousel-slide mdc-card">
+                    <img src="https://picsum.photos/seed/wildlife/800/400" alt="Wildlife">
+                    <h3>Wildlife Corridors</h3>
+                    <p>Creating pathways to connect fragmented habitats.</p>
+                </div>
+                <div class="carousel-slide mdc-card">
+                    <img src="https://picsum.photos/seed/land/800/400" alt="Sustainable Land">
+                    <h3>Sustainable Land Use</h3>
+                    <p>Promoting practices to prevent soil degradation.</p>
+                </div>
+            </div>
+            <button class="mdc-button prev-btn">❮</button>
+            <button class="mdc-button next-btn">❯</button>
+        </div>
+        <div class="stats mdc-card">
+            <h3>Biodiversity Stats</h3>
+            <canvas id="biodiversityChart"></canvas>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="mdc-card">
+            <h2>Contact Us</h2>
+            <p>Join us in protecting life on land. Reach out to collaborate.</p>
+            <form>
+                <label class="mdc-text-field">
+                    <input type="text" placeholder="Name" required>
+                    <span>Name</span>
+                </label>
+                <label class="mdc-text-field">
+                    <input type="email" placeholder="Email" required>
+                    <span>Email</span>
+                </label>
+                <label class="mdc-text-field">
+                    <textarea placeholder="Message" required></textarea>
+                    <span>Message</span>
+                </label>
+                <button type="submit" class="mdc-button mdc-button--raised">Send</button>
+            </form>
+            <img src="https://picsum.photos/seed/contact-land/600/400" alt="Contact">
+        </div>
+    </section>
+
+    <footer class="mdc-elevation--z4">
+        <p>© 2025 SDG 15 Initiative. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
